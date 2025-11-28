@@ -46,19 +46,20 @@
     <a href="#">Solutions</a>
     <a href="#">Products</a>
     <div class="navbar__sub">
-      <a href="">Shops</a>
-      <img src="./Images/drop-down.png" onclick="dropDown()" alt="Drop Down" id="dropdown">
-      <img src="./Images/drop-up.png" alt="Drop Up" id="dropup">
+      <p onclick="toggleDropDown()">Shops</p>
+      <img src="./Images/drop-down.png" onclick="toggleDropDown()" alt="Drop Down" id="dropdown">
+      <img src="./Images/drop-up.png" onclick="toggleDropDown()" alt="Drop Up" id="dropup">
+
+      <div class="navbar__shop__dropdown">
+        <a href="#">Shop 1</a>
+        <a href="#">Shop 2</a>
+        <a href="#">Shop 3</a>
+      </div>
     </div>
     <a href="#">Resources</a>
   </div>
 
-  <div class="navbar__shop__dropdown">
-    <a href="#">Shop 1</a>
-    <a href="#">Shop 2</a>
-    <a href="#">Shop 3</a>
 
-  </div>
 
   <div class="responsive__navbar">
     <div class="responsive__navbar__s1">
@@ -192,8 +193,10 @@
     <div class="footer">
       <div class="footer__s1">
         <img src="./Images/logo.png" alt="logo">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.  <br>  Quas officiis ullam ipsam beatae architecto commodi
-          tenetur <br> blanditiis. Culpa consequuntur natus necessitatibus, nihil quo <br> omnis unde libero possimus neque vitae
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> Quas officiis ullam ipsam beatae architecto
+          commodi
+          tenetur <br> blanditiis. Culpa consequuntur natus necessitatibus, nihil quo <br> omnis unde libero possimus
+          neque vitae
           eos.</p>
       </div>
       <div class="footer__s2">
@@ -210,10 +213,16 @@
         <div class="footer__s3__icons">
           <img src="./Images/sample solutions.png" alt="Certification 1">
           <img src="./Images/sample solutions.png" alt="Certification 2">
+        </div>
       </div>
     </div>
 
-    <script src="./index.js"></script>
+    <!-- Go To Top Button -->
+    <div class="go__to__top__button">
+      <img src="./Images/gotop.png" alt="Go To Top">
+    </div>
+  </div>
+  <script src="./index.js"></script>
 </body>
 
 </html>
