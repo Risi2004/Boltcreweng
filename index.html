@@ -12,6 +12,7 @@
 
 <body>
 
+  <!-- Header -->
   <div class="header">
     <div class="header__s1">
       <img src="./Images/logo.png" alt="Logo">
@@ -39,6 +40,7 @@
     </div>
   </div>
 
+  <!-- Navbar -->
   <div class="navbar">
     <a href="./index.html">Home</a>
     <a href="#">About Us</a>
@@ -59,8 +61,7 @@
     <a href="#">Resources</a>
   </div>
 
-
-
+  <!-- Responsive Contact Navbar -->
   <div class="responsive__navbar">
     <div class="responsive__navbar__s1">
       <img src="./Images/menu.png" alt="Menu-Bar">
@@ -84,12 +85,38 @@
     </div>
   </div>
 
+  <!-- Responsive Side Navbar -->
+  <div class="responsive__side__navbar">
+    <p class="responsive__side__navbar__close">X</p>
+    <a href="./index.html">Home</a>
+    <a href="#">About Us</a>
+    <a href="#">Contact Us</a>
+    <a href="#">Solutions</a>
+    <a href="#">Products</a>
+    <div class="side__navbar__sub">
+      <div class="side__navbar__sub__s1">
+        <p onclick="toggleDropDownTwo()">Shops</p>
+        <img src="./Images/drop-down.png" onclick="toggleDropDownTwo()" alt="Drop Down" id="sidebardropdown">
+        <img src="./Images/drop-up.png" onclick="toggleDropDownTwo()" alt="Drop Up" id="sidebardropup">
+      </div>
+      <div class="side__navbar__sub__s2">
+        <a href="#">Shop 1</a>
+        <a href="#">Shop 2</a>
+        <a href="#">Shop 3</a>  
+      </div>
+    </div>
+    <a href="#">Resources</a>
+  </div>
+
+  <!-- Background Image -->
   <div class="background__image">
 
+    <!-- Header Image -->
     <div class="header__image">
       <img src="./Images/header image.png" alt="Header-Image">
     </div>
 
+    <!-- Company Introduction -->
     <div class="company__introduction">
       <div class="company__introduction__s1">
         <img src="./Images/man-image.png" alt="Company Image">
@@ -114,6 +141,7 @@
       </div>
     </div>
 
+    <!-- Solutions -->
     <div class="solutions__container">
       <h1>Solutions</h1>
       <div class="solutions">
@@ -140,6 +168,7 @@
       </div>
     </div>
 
+    <!-- Products -->
     <div class="products">
       <h1>Products</h1>
       <div class="products__cards">
